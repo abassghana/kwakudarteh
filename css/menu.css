@@ -232,5 +232,8 @@ a.btn-mod {
 
 .row {
     margin: 15px;
-    padding-bottom: 10px;
+}
+
+.img-fluid {
+    padding-bottom: 15px;
 }
