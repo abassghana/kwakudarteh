@@ -110,14 +110,14 @@ a.slide_btn {
 .previous_btn {
     bottom: 0;
     left: 100px;
-    margin: auto;
+    margin-right: 50rem;
     position: absolute;
     top: 0;
 }
 
 .next_btn {
     bottom: 0;
-    margin: auto;
+    margin-left: 50rem;
     position: absolute;
     right: 100px;
     top: 0;
@@ -223,6 +223,9 @@ a:hover {
     .slide_viewer {
         height: 400px;
     }
+    .mobileHide {
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 375px) {
@@ -242,5 +245,8 @@ a:hover {
     }
     .slide_viewer {
         height: 400px;
+    }
+    .mobileHide {
+        display: none;
     }
 }
